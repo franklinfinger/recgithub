@@ -37,7 +37,7 @@ toggleNavTab.click(function(event){
   $(selectedPage).removeClass('inactive');
 });
 
-$(".repos-tab").find(".public").attr("src",repo._url);
+// $(".repos-tab").find(".public").attr("src",repo.avatar_url);
 
 
 var repoStr = "";
